@@ -8,7 +8,7 @@ pipeline{
 		stage ('git'){
 
 			steps{
-			checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/spring-projects/spring-petclinic.git']])
+			checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Rohit10S/spring-petclinic.git']])
 			}
 
 		} //stage one completed
